@@ -91,4 +91,10 @@ abstract class BaseController
         return $v->failException(true)->check($data);
     }
 
+    public function __call($name, $arguments)
+    {
+        // TODO: Implement __call() method.
+        return show(config('status.error'),'请不要非法操作',[],config('code.not_presence'));
+    }
+
 }

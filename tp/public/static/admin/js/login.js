@@ -24,26 +24,18 @@ layui.use(['form'], function () {
             return false;
         }
         // 验证码 校验
-        var val = $(".input-val").val().toLowerCase();
-        var num = show_num.join("");
-        if(val != num){
-            layer.msg('验证码错误！请重新输入！');
-            draw(show_num);
-            return false;
-        }
-
-        window.location = '../index.html';
-        return false;
-        $(".input-val").val('');
         $.ajax({
             url,
             data,
             type:"POST",
             success(res){
-                if(res.status == 200){
+                if(res.status == 1){
                     layer.msg('登录成功', function () {
-                        window.location = '/xiaozhu/index.html';
+                        window.location = goIndex;
                     });
+                }else{
+                    layer.msg(res.message);
+                    return false;
                 }
             }
         })

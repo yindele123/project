@@ -20,6 +20,7 @@
       <path value="$PROJECT_DIR$/tp/vendor/topthink/think-multi-app" />
       <path value="$PROJECT_DIR$/tp/vendor/topthink/think-template" />
       <path value="$PROJECT_DIR$/tp/vendor/topthink/think-view" />
+      <path value="$PROJECT_DIR$/tp/vendor/topthink/think-captcha" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.1" />

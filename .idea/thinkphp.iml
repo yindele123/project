@@ -16,6 +16,7 @@
       <excludeFolder url="file://$MODULE_DIR$/tp/vendor/symfony/polyfill-php72" />
       <excludeFolder url="file://$MODULE_DIR$/tp/vendor/symfony/var-dumper" />
       <excludeFolder url="file://$MODULE_DIR$/tp/vendor/topthink/framework" />
+      <excludeFolder url="file://$MODULE_DIR$/tp/vendor/topthink/think-captcha" />
       <excludeFolder url="file://$MODULE_DIR$/tp/vendor/topthink/think-helper" />
       <excludeFolder url="file://$MODULE_DIR$/tp/vendor/topthink/think-multi-app" />
       <excludeFolder url="file://$MODULE_DIR$/tp/vendor/topthink/think-orm" />
