@@ -11,5 +11,9 @@ return[
     'success'=>1,//成功
     'error'=>0,//失败
     'not_login'=>-1,//没有登录
-    'user_is_register'=>-2 //该用户已被注册
+    'user_is_register'=>-2, //该用户已被注册
+
+    'mysql'=>[
+        'table_normal'=>1 //正常
+    ]
 ];

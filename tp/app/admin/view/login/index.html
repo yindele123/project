@@ -35,7 +35,7 @@
             </div>
             <div>
                 <input type="text" name="captcha" placeholder="请输入验证码" autocomplete="off" class="layui-input admin-input admin-input-verify input-val" value="">
-                <div id="canvas" class="admin-captcha"><img src="{:url('verify/index')}" onclick="this.src='{:url(\'verify/index\')}?'+Math.random()"></div>
+                <div id="canvas" class="admin-captcha"><img src="{:url('login/verify')}" onclick="this.src='{:url(\'login/verify\')}?'+Math.random()"></div>
             </div>
             <button class="layui-btn admin-button" lay-submit="" lay-filter="login">登 陆</button>
         </form>
